@@ -1,0 +1,61 @@
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+
+    /* Larger touch targets for mobile */
+    button,
+    a {
+        min-height: 44px;
+    }
+
+    /* Better spacing on mobile */
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Better font sizes - prevents zoom on input focus */
+    body {
+        font-size: 16px;
+    }
+
+    input,
+    textarea,
+    select {
+        font-size: 16px;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+
+    /* Better tap feedback */
+    button:active,
+    a:active {
+        opacity: 0.7;
+        transform: sc ale(0.98);
+    }
+
+    /* Disable hover effects on touch devices */
+    .hover-scale:hover {
+        transform: none;
+    }
+}
+
+/* Prevent horizontal scroll */
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Safe area insets for mobile devices */
+@supports (padding: env(safe-area-inset-bottom)) {
+    body {
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
+
+/* Mobile viewport height fix */
+.min-h-screen-mobile {
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+}

@@ -1,0 +1,14 @@
+# Robots.txt - Controls search engine crawlers
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private routes (if any)
+# Disallow: /admin
+# Disallow: /api
+
+# Sitemap location
+Sitemap: https://meeshoindia.netlify.app/sitemap.xml
+
+# Crawl delay (optional - prevents overloading)
+# Crawl-delay: 10
