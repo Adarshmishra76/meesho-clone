@@ -8,7 +8,7 @@ Update `.env.production` with your actual backend URL:
 
 ```env
 VITE_API_URL=https://your-backend-url.com/api
-VITE_SITE_URL=https://meeshoindia.netlify.app
+VITE_SITE_URL=https://meesho3.netlify.app
 VITE_ADSENSE_CLIENT=ca-pub-3090683691757399
 ```
 
