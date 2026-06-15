@@ -37,7 +37,7 @@ VITE_SITE_URL=http://localhost:5173
 **`.env.production` (Production):**
 ```env
 VITE_API_URL=https://your-backend-url.com/api
-VITE_SITE_URL=https://meeshoindia.netlify.app
+VITE_SITE_URL=https://meesho3.netlify.app
 ```
 
 **Updated:**
